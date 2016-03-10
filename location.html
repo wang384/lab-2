@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="responsive website">
+<meta name="author" content="shiqi wang">
+<title>Jessie's</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" type="text/css" href="location.css">
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<title>location</title>
+
+</head>
+
+<body>
+<div class="header">
+<img class="displayed"  src="logo.jpg" alt="icon" width="120" height="100">
+<h1 align="center">dessert shop</h1>
+</div>
+<nav>
+<ul>
+  <li><a class="active" href="../shiqi's.html">Home</a></li>
+  <li><a href="../Menu.html">Menu</a></li>
+  <li><a href="../about.html">About</a></li>
+  <li><a href="../location.html">Location</a></li>
+</ul>
+</nav>
+<h2> location</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper magna massa, sed malesuada quam laoreet id. Aenean in augue massa. Curabitur hendrerit non nisi id fermentum. Praesent sit amet enim at leo malesuada sagittis eget et erat. Aliquam erat volutpat. Nullam at faucibus tortor. Praesent sed magna imperdiet, lacinia ipsum ac, pharetra mauris. Vestibulum scelerisque maximus nunc, in luctus metus finibus eu. Duis a ligula leo.</p>
+
+<div id="map"></div>
+<script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 44.540, lng: -78.546},
+          zoom: 8
+        });
+      }
+	 
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer>
+     </script>
+<footer>
+&copy;2016 shiqi's
+</footer>
+
+</body>
+</html>

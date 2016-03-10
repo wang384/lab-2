@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+blockquote {
+	float:right;
+	width:275px;
+	font-size:140%;
+	font-style:italic;
+	font-family: 'Shadows Into Light', cursive;
+	margin:30px 50px 20px 40px;
+	padding:10px;
+	border-top:1px solid #000000;
+	border-bottom::1px solid #000000;
+	color:#921A2E
+
+}

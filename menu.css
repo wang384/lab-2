@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+header,section,footer,aside,nav,artical,figure,figcation{ display:block;}
+
+.wrapper {
+	width:940px;
+	margin: 20px auto 20px auto;
+	border:2px solid hsla(0,0%,0%,1.00);
+}
+
+h1{ 
+
+width:940px;
+margin:20px;
+}
+nav,footer{
+	clear:both;
+	background-color:hsla(45,13%,54%,1.00);
+}
+section.courses{
+	float:left;
+	width:659px;
+	border-right:1px hsla(0,0%,0%,1.00);}
+article{
+	clear:both;
+    overflow:auto;
+	width:100%;
+}
+hgroup{
+	margin-top:40px;}
+aside section a{
+	display:block;
+	padding:10px;
+}
+aside section a: hover{
+	color:hsla(192,62%,72%,1.00);
+}
+h1,h2,h3{
+	font-weight:normal;}
+
+h3{
+		margin:0px 0px 10px 0px;
+		color:hsla(359,73%,23%,1.00)
+}
+aside h2{ 
+padding:30px 0px 10px 0px;
+}
+
+
+
+	
+	
+
+
+
+	

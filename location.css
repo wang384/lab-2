@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+#map{
+	width:600px;
+	height:800px;
+	align:center;
+}
+h2{
+	font-size:30px;
+}
+body{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-style:italic;
+	color:hsla(31,42%,60%,1.00);
+}
